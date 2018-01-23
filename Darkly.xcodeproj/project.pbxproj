@@ -1217,9 +1217,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "$(PROJECT_DIR)/Framework/module.modulemap";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.launchdarkly.Darkly;
 				PRODUCT_NAME = Darkly;
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 			};
 			name = Debug;
 		};
@@ -1239,9 +1240,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "$(PROJECT_DIR)/Framework/module.modulemap";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.launchdarkly.Darkly;
 				PRODUCT_NAME = Darkly;
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 			};
 			name = Release;
 		};
